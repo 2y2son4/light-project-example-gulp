@@ -1,0 +1,33 @@
+{
+  "name": "light-project-example-gulp",
+  "version": "1.0.0",
+  "description": "Example of build setup for a gulp-based 'light project': a Magnolia project built with light modules.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && npm i --production && gulp",
+    "clean": "rm -rf src dist"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magnolia-cms/light-project-example-gulp.git"
+  },
+  "keywords": [
+    "magnolia",
+    "mgnl",
+    "magnolia-light-project"
+  ],
+  "contributors": [
+    "Magnolia (https://magnolia-cms.com/)",
+    "Robert Kowalski <rok@kowalski.gd>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
+  },
+  "dependencies": {
+    "calculator-magnolia": "0.0.2",
+    "shareable-magnolia": "^1.0.0"
+  }
+}

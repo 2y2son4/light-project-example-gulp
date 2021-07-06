@@ -5,7 +5,7 @@ Example of build setup for a gulp-based 'light project': a Magnolia project buil
 ## Features
 
 * Gets a collection of light modules from npm.
-* Processes the webresources from all modules via a gulpfile. The default process is to concatonate the js and css files into build.js and build.css.
+* Processes the webresources from all modules via a gulpfile. The default process is to concatenate the js and css files into build.js and build.css.
 
 
 ## Usage
